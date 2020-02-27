@@ -1,31 +1,60 @@
-body{
-	background-color:black;
 
+body{
+	background-color: black;
 }
 
+
+.scroll{
+  width: 100%;
+  height: 100%;
+  /* CSS Smooth Scroll */
+  overflow-y: scroll; 
+  scroll-behavior: smooth;
+  scroll-snap-type: y mandatory;
+}
+
+.page{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+  height: 100vh;
+ 
+  /* Scroll Snap */
+  scroll-snap-align: center;
+
+
+}
 .marginalia{
 	font-family: neue-haas-unica, sans-serif;
 	font-weight: 200;
 	font-style: normal;
 	color:#666666;
-	text-align: center;
+	/*text-align: center;*/
 	font-size: 11pt;
-	margin-top: 20px;
+	/*margin-top: 20px;
+	height: 500px;*/
 }
 
 .heading{
 	font-family: 'Frank Ruhl Libre';
 	font-weight: 300;
 	font-size:36pt;
-	text-align: center;
+	/*text-align: center;*/
 	color:white;
-	margin-top: 39vh
+/*
+	height: 500px;*/
 }
 
 
-
+/*
 #scrolltext{
-	margin-top: 40vh;
+
 	font-size:16pt;
 	color:#999999;
-}
+
+
+
+*/
