@@ -1,60 +1,208 @@
-
-body{
-	background-color: black;
+html {
+ scroll-behavior: smooth;
+ background-color: black;
+ font-family: titling-gothic-fb, sans-serif;
+ font-weight: 100;
+ font-style: normal;
+}
+body{padding:0; margin:0; display:flex; align-items:center;
+  
 }
 
+.scroll-container,
+.scroll-area {
 
-.scroll{
-  width: 100%;
-  height: 100%;
-  /* CSS Smooth Scroll */
-  overflow-y: scroll; 
-  scroll-behavior: smooth;
-  scroll-snap-type: y mandatory;
-}
-
-.page{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
   width: 100%;
   height: 100vh;
- 
-  /* Scroll Snap */
-  scroll-snap-align: center;
+  letter-spacing: 1pt;
+  scroll-behavior: smooth;
+}
+
+.scroll-container {
+  overflow: auto;
+  scroll-snap-type: y mandatory;
 
 
 }
-.marginalia{
-	font-family: neue-haas-unica, sans-serif;
-	font-weight: 200;
-	font-style: normal;
-	color:#666666;
-	/*text-align: center;*/
-	font-size: 11pt;
-	/*margin-top: 20px;
-	height: 500px;*/
+
+.scroll-area {
+  scroll-snap-align: start;
 }
 
-.heading{
-	font-family: 'Frank Ruhl Libre';
-	font-weight: 300;
-	font-size:36pt;
-	/*text-align: center;*/
-	color:white;
+.scroll-container,
+.scroll-area {
+  margin: 0 auto;
+}
+
+.scroll-area {
+  display: flex;
+  flex-direction: column;
+/*    align-items: center;
+  justify-content: center;*/
+  color: #FFFFFF;
+}
+
+#centered{
+	    align-items: center;
+  justify-content: center;
+}
+
+.info{
+  background:black;
+}
+
+.home{
+  background:black;
+}
+
+
+.title{
+  
+  
+  font-style: normal;
+  font-size:48pt;
+
+
+}
+
+
+
+
+
+
+.scroll-area{
+	height: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.column{
+    width: 25%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    background: black;
+    border-right:  1px solid #DBDBDB;
+
+}
+
+
+
+
+.danae {
+	width: 100%;
+	height:50%;
+	margin:auto;
+	background-color: #DBDBDB;
+  transition: .5s;
+
+}
+
+.danae2 {
+/*  width: 100%;
+  height:50%;
+  margin:auto;*/
+  background-color:#2A4CD3;
+  box-shadow: 0px 0px 20px 20px #2A4CD3;
+  transition: .5s;
+
+}
+
+
+
+
+.mile{
+	width:13%;
+	height:100%;
+	background-color: #DBDBDB;
+	margin:auto;
+  transition: .5s;
+}
+
+.mile2{
+  background-color:#A7D8E8;
+  box-shadow: 0px 0px 10px 10px #A7D8E8 ;
+  transition: .5s;
+}
+
+.catso {
+	width: 100%;
+  height: 55%;
+	margin:auto;
+  background: url(catso.svg);
+  background-size: 25vw auto;
+  background-repeat: no-repeat;
+  transition: .5s;
+}
+
+
+.catso2 {
+
+  background-image: url(catso2.svg);
+  background-repeat: no-repeat;
+  transition: .5s;
+}
+
+.untitled{
+  height: 500px;
+  width: 500px;
+  shape-outside: circle();
+  clip-path: circle(50% at 70% 50%);
+  background: #DDDDDD;
+  margin: auto;
+
+}
+
+.untitled2{
+border-clip-path: circle(50% at 70% 50%);
+  border-radius: 50%;
+  border: 6px solid blue;
+
+
+}
+
+
+/*.untitled{
+	width:500px;
+	height:500px;
+	margin:auto;
+  background: url(untitled-02.svg);
+  transition: .5s;
+  background-repeat: no-repeat;
+}
+
+
+.untitled2{
+  width:500px;
+  height:500px;
+  margin:auto;
+  background: url(untitled-05.svg);
+  transition: .5s;
+  background-repeat: no-repeat;
+}
+*/
+
+.last_column{
+	width:24.8% !important;
+	border-right: none !important;
+}
+
 /*
-	height: 500px;*/
+#danae:hover{
+  background-color:#2A4CD3;
+  box-shadow: 0px 0px 20px 20px #2A4CD3;
+
 }
 
 
+/*#mile:hover{
+  background-color:#A7D8E8;
+  box-shadow: 0px 0px 10px 10px #A7D8E8 ;
+
+}*/
 /*
-#scrolltext{
-
-	font-size:16pt;
-	color:#999999;
-
-
-
+html:hover{
+opacity: 1;
+transition: 2.5s;}
 */
