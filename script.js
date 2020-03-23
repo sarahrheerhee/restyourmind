@@ -20,6 +20,12 @@ $('#first').mouseleave( function () {
 
 
 
+$('#first').click( function () {
+
+   window.location.href = "danae.html";
+
+});
+
 
 $('#second').mouseover( function () {
 
@@ -55,20 +61,26 @@ $('#third').mouseleave( function () {
 });
 
 
-$('#fourth').mouseover( function () {
+$('#third').click( function () {
 
-   $(".untitled").addClass("untitled2");
-
-});
-
-
-
-
-$('#fourth').mouseleave( function () {
-
-   $(".untitled").removeClass("untitled2");
+   window.location.href = "catso.html";
 
 });
+
+// $('#fourth').mouseover( function () {
+
+//    $(".untitled").addClass("untitled2");
+
+// });
+
+
+
+
+// $('#fourth').mouseleave( function () {
+
+//    $(".untitled").removeClass("untitled2");
+
+// });
 
 
 
