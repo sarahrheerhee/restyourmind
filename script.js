@@ -3,6 +3,19 @@ console.log('hi');
 $(document).ready(function() {
     // javascript goes here
 
+$(function(){
+  setTimeout(function(){
+    $('html, body')
+    .css({
+      'overflow': 'auto'
+    })
+    .animate({
+      scrollTop: $('.myDiv').offset().top
+    }, 11000);
+  }, 11000);
+});
+
+
 $('#first').mouseover( function () {
 
    $(".danae").addClass("danae2");
