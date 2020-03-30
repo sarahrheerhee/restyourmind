@@ -26,11 +26,14 @@ body{padding:0; margin:0; display:flex; align-items:center;
 }
 
 svg{
-  width:500%;
-  margin-left: -200%;
-  margin-top: -30%;
+  width:80%;
+  margin-left: 13%;
+  margin-top: 175%;*/
 
 }
+
+
+
 .scroll-area {
   scroll-snap-align: start;
 }
@@ -65,15 +68,40 @@ svg{
 .title{
   
   margin: auto;
+  width: 100%;
   font-style: normal;
   font-size:48pt;
+  margin-left: 2%;
 
+
+
+}
+#meditateabout {
+  width: 30%;
+  margin-left: 10%;
+  margin-top: 5%;
+  font-family: sans-serif;
+  font-weight: lighter;
+}
+
+#meditateabout2 {
+  width: 30%;
+  margin-left: 10%;
+  margin-top: 5%;
+  font-family: sans-serif;
+}
+
+#meditateabout3 {
+  width: 30%;
+  margin-left: 10%;
+  margin-top: 5%;
+  font-family: sans-serif;
 
 }
 
 .subinfo {
   font-size:9pt;
-  margin-top: 5%;
+  margin-top: 1%;
 }
 
 #aboutnav{
@@ -93,7 +121,17 @@ svg{
 
 }
 
+#aboutsection{
 
+  display: block;
+  font-size: 12pt;
+  line-height: 20px;
+
+}
+
+#aboutsectiontitle{
+  padding-top: 7%;
+}
 
 
 .scroll-area{
@@ -103,8 +141,19 @@ svg{
     flex-wrap: wrap;
 }
 
+.menu{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height:33.33333333%;
+    width:100%;
+
+
+}
+
+
 .column{
-    width: 25%;
+    width: 24.5%;
     height: 100%;
     display: flex;
     flex-wrap: wrap;
@@ -114,15 +163,57 @@ svg{
 }
 
 
+#menutext{
 
+  margin: auto;
+  margin-top:100%;
 
+}
+
+svg{
+  transform: scale(1.6);
+}
+
+.iconhover{
+  stroke:#dbdbdb;
+}
+
+#sidebar{
+  width:3%;
+  height: 100%;
+  background: black;
+  z-index: 1;
+  display: block;
+  border-right: 1px solid #DBDBDB;
+  color: #DBDBDB;
+  position: fixed;
+}
+
+.menuitem{
+  width: 2%;
+  height:33.333333%;
+
+}
+
+#middlemenu{
+  border-top: 1px solid #DBDBDB;
+  border-bottom: 1px solid #DBDBDB;
+
+}
+
+#lastmenu{
+  height: 33% !important;
+}
+
+#first{
+  width:26%;
+}
 .danae {
 	width: 100%;
 	height:50%;
 	margin:auto;
 	background-color: #DBDBDB;
   transition: .5s;
-  margin-top: -20%;
 
 }
 
@@ -138,14 +229,14 @@ svg{
 
 .danaeinfo{
   color:#DBDBDB;
-  margin-top: 40%;
+  margin-top: 25%;
   font-weight: 300;
+  margin-left: 13%
 }
 
-.more{
+#more{
   color:#DBDBDB;
-  font-size: 40pt;
-  margin-left: 90%;}
+  font-size: 10pt;}
 
 
 .mile{
@@ -154,8 +245,10 @@ svg{
 	background-color: #DBDBDB;
 	margin:auto;
   transition: .5s;
-  margin-top: -13%;
+  
 }
+
+
 
 .mile2{
   background-color:#A7D8E8;
@@ -166,7 +259,7 @@ svg{
 .mileinfo{
  color:#DBDBDB;
  margin-top: 85.5%;
-  font-weight: 300;
+ font-weight: 300;
 
 }
 
@@ -178,10 +271,18 @@ svg{
   background-size: 25vw auto;
   background-repeat: no-repeat;
   transition: .5s;
-  margin-top: -15%;
+
 }
 
+.menufill{
+  background: #DBDBDB;
+  stroke:black;
 
+
+}
+.letterspacing{
+  letter-spacing: 20px;
+}
 
 /*.catso2 {
   width: 100%;
@@ -199,7 +300,7 @@ svg{
   clip-path: circle(50% at 70% 50%);
   background: #DDDDDD;
   margin: auto;
-  margin-top: -15%;
+
 
 }
 
@@ -234,26 +335,14 @@ border-clip-path: circle(50% at 70% 50%);
 }
 
 */
+
 .last_column{
-	width:24.8% !important;
+
+  width:24.5%;
 	border-right: none !important;
 }
 
-/*
-#danae:hover{
-  background-color:#2A4CD3;
-  box-shadow: 0px 0px 20px 20px #2A4CD3;
-
+a {
+  color: #DBDBDB;
+  text-decoration: none;
 }
-
-
-/*#mile:hover{
-  background-color:#A7D8E8;
-  box-shadow: 0px 0px 10px 10px #A7D8E8 ;
-
-}*/
-/*
-html:hover{
-opacity: 1;
-transition: 2.5s;}
-*/
