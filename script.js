@@ -1,6 +1,7 @@
 console.log('hi');
 
 $(document).ready(function() {
+
     // javascript goes here
 
 
@@ -70,81 +71,112 @@ $('#third').click( function () {
 });
 
 
-// $('#homemenu').mouseover( function () {
+$('#homemenu').mouseover( function () {
 
-//    $("#homemenu").addClass("menufill");
+   $("#homemenu").addClass("menufill");
+    $("#animatefill").css("width","100%")
 
-// });
-
-
-
-// $('#homemenu').mouseleave( function () {
-
-//    $("#homemenu").removeClass("menufill");
-
-// });
-
-
-// $('#middlemenu').mouseover( function () {
-
-//    $("#middlemenu").addClass("menufill");
-
-// });
+});
 
 
 
-// $('#middlemenu').mouseleave( function () {
+$('#homemenu').mouseleave( function () {
 
-//    $("#middlemenu").removeClass("menufill");
-
-// });
-
-// $('#lastmenu').mouseover( function () {
-
-//    $("#lastmenu").addClass("menufill");
-
-// });
-
-// $('#lastmenu').mouseleave( function () {
-
-//    $("#lastmenu").removeClass("menufill");
-
-// });
-
-// $('#more').mouseover( function () {
-
-//    $("more").addClass("letterspacing");
-
-// });
-
-// $('#more').mouseover( function () {
-
-//    $("#more").removeClass("letterspacing");
-
-// });
-
-
-
-// $('#fourth').mouseover( function () {
-
-//    $(".untitled").addClass("untitled2");
-
-// });
-
-
-
-
-// $('#fourth').mouseleave( function () {
-
-//    $(".untitled").removeClass("untitled2");
-
-// });
-
-
-
-
+   $("#homemenu").removeClass("menufill");
+ $("#animatefill").css("width","0%")
 
 
 
 });
+
+
+$('#middlemenu').mouseover( function () {
+
+   $("#middlemenu").addClass("menufill");
+   $("#animatefill2").css("width","100%")
+
+});
+
+
+
+$('#middlemenu').mouseleave( function () {
+
+   $("#middlemenu").removeClass("menufill");
+    $("#animatefill2").css("width","0%")
+
+});
+
+$('#lastmenu').mouseover( function () {
+
+   $("#lastmenu").addClass("menufill");
+   $("#animatefill3").css("width","100%")
+
+});
+
+$('#lastmenu').mouseleave( function () {
+
+   $("#lastmenu").removeClass("menufill");
+   $("#animatefill3").css("width","0%")
+
+});
+
+$('#more').mouseover( function () {
+
+   $("more").addClass("letterspacing");
+
+});
+
+$('#more').mouseover( function () {
+
+   $("#more").removeClass("letterspacing");
+
+});
+
+
+
+
+
+$('#problem').mouseover( function () {
+
+   $("#problem").css("opacity","1");
+   $("#solution").css("opacity",".2");
+   $("#what").css("opacity",".2");
+
+
+});
+
+
+$('#what').mouseover( function () {
+
+   $("#what").css("opacity","1");
+   $("#solution").css("opacity",".2");
+   $("#problem").css("opacity",".2");
+
+
+});
+
+
+$('#solution').mouseover( function () {
+
+   $("#solution").css("opacity","1");
+   $("#what").css("opacity",".2");
+   $("#problem").css("opacity",".2");
+   $("#arrow3").css("opacity","1");
+
+
+});
+
+$('#solution').mouseleave( function () {
+
+   
+   $("#arrow3").css("opacity","0");
+
+
+});
+
+
+});
+
+
+
 
