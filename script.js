@@ -168,13 +168,7 @@ $('#solution').click( function () {
 
 });
 
-$('#solution').mouseleave( function () {
 
-   
-   $("#arrow3").css("opacity","0");
-
-
-});
 
 
 });
