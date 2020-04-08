@@ -136,27 +136,29 @@ $('#more').mouseover( function () {
 
 
 
-$('#problem').mouseover( function () {
+$('#problem').click( function () {
 
    $("#problem").css("opacity","1");
    $("#solution").css("opacity",".2");
    $("#what").css("opacity",".2");
+   $("#click").css("opacity","0");
 
 
 });
 
 
-$('#what').mouseover( function () {
+$('#what').click( function () {
 
    $("#what").css("opacity","1");
    $("#solution").css("opacity",".2");
    $("#problem").css("opacity",".2");
 
 
+
 });
 
 
-$('#solution').mouseover( function () {
+$('#solution').click( function () {
 
    $("#solution").css("opacity","1");
    $("#what").css("opacity",".2");
