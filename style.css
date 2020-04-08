@@ -107,9 +107,9 @@ svg{
 }
 
 #introsvg{
-  transform: scale(1.3);
+  transform: scale(1.2);
   margin-left:3%;
-  margin-top: 6%;
+  margin-top: 3%;
 }
 #whyvis{
   margin-top: -4.5%;
